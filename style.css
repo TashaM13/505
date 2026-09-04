@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(194, 243, 176);
+}
+
+#header {
+  text-align: center;
+  margin: 40px;
+}
+
+#wellweb {
+  color: black;
+  font-size: 50px;
+}
+h2 {
+  color: rgb(135, 237, 137);
+}
+
+hr {
+  width: 50%;
+  border: 0.5px solid rgb(210, 84, 103);
+}
+
+img {
+  width: 30px;
+  height: auto;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carousel-item {
+  height: 400px;
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
