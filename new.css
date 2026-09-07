@@ -382,3 +382,8 @@ img {
   align-items: center;
   flex-direction: column;
 }
+.btn.btn-primary {
+  background-color: rgb(236, 6, 152) !important;
+  color: #fffcfc;
+  border: 1px solid rgb(236, 6, 152) !important;
+}
