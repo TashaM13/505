@@ -1,23 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 body {
-  background-color: rgb(221, 114, 175);
+  font-family: "Inter", sans-serif;
+  background-color: rgb(247, 171, 226);
 }
 
 #header {
   text-align: center;
   margin: 40px;
 }
-
 #wellweb {
-  color: black;
+  color: rgb(247, 243, 243);
   font-size: 50px;
 }
 h2 {
-  color: rgb(229, 26, 155);
+  color: rgb(255, 252, 254);
 }
 
 hr {
   width: 50%;
-  border: 0.5px solid rgb(210, 84, 103);
+  border: 0.5px solid rgb(245, 240, 241);
 }
 
 img {
@@ -29,4 +31,9 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+body {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #fffcfc;
 }
