@@ -16,6 +16,10 @@ body {
 }
 /* HEADER */
 
+h1 {
+  font-family: "Engagement", cursive;
+}
+
 header {
   width: 100%;
   padding: 20px 8%;
