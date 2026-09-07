@@ -46,6 +46,10 @@ img {
   width: 300px;
   height: auto;
 }
+.img-llp {
+  width: 290px;
+  height: auto;
+}
 body {
   font-size: 22px;
   line-height: 1.5;
