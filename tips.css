@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(221, 114, 175);
+}
+
+#header {
+  text-align: center;
+  margin: 40px;
+}
+
+#wellweb {
+  color: black;
+  font-size: 50px;
+}
+h2 {
+  color: rgb(229, 26, 155);
+}
+
+hr {
+  width: 50%;
+  border: 0.5px solid rgb(210, 84, 103);
+}
+
+img {
+  width: 30px;
+  height: auto;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
