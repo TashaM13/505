@@ -340,3 +340,41 @@ hr {
     font-size: 28px;
   }
 }
+.bg-primary {
+  background-color: blueviolet !important;
+}
+
+body {
+  background-color: palevioletred;
+}
+
+#header {
+  text-align: center;
+  margin: 40px;
+}
+
+#hello {
+  color: #2bafb1;
+  font-size: 50px;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+hr {
+  width: 50%;
+  border: 0.5px solid brown;
+}
+
+img {
+  width: 300px;
+  border-radius: 10%;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
