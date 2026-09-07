@@ -12,7 +12,7 @@ body {
   color: hsl(0, 0%, 100%);
 }
 .below {
-  padding: 20px;
+  padding: 50px;
 }
 /* HEADER */
 
@@ -354,6 +354,7 @@ hr {
 
 body {
   background-color: rgb(247, 183, 219);
+  padding-top: 50px;
 }
 
 #header {
@@ -390,4 +391,10 @@ img {
   background-color: rgb(236, 6, 152) !important;
   color: #fffcfc;
   border: 1px solid rgb(236, 6, 152) !important;
+}
+.navbar.navbar-expand-lg.bg-body-tertiary {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1020;
 }
