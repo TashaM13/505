@@ -4,7 +4,9 @@ body {
   font-family: "Inter", sans-serif;
   background-color: rgb(246, 164, 223);
 }
-
+h1 {
+  font-family: "Engagement", cursive;
+}
 #header {
   text-align: center;
   margin: 40px;
