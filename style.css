@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 body {
-  background-color: rgb(253, 188, 235);
+  font-family: "Inter", sans-serif;
+  background-color: rgb(246, 164, 223);
 }
 
 #header {
@@ -7,10 +10,10 @@ body {
   margin: 40px;
 }
 
-#wellweb {
-  color: black;
-  font-size: 50px;
+.below {
+  padding: 20px;
 }
+
 h2 {
   color: rgb(135, 237, 137);
 }
