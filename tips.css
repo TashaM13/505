@@ -39,3 +39,26 @@ body {
   line-height: 1.5;
   color: #fffcfc;
 }
+
+.container {
+  padding: 20px;
+}
+
+.below {
+  padding: 50px;
+}
+.card-body {
+  cursor: pointer;
+}
+.card.h-100 {
+  background-color: rgb(245, 208, 234);
+  color: slategray;
+  transition:
+    transform 0.3 ease,
+    box-shadow 0.3 ease;
+}
+
+.card.h-100:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 3rem black;
+}
