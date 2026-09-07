@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(194, 243, 176);
+  background-color: rgb(253, 188, 235);
 }
 
 #header {
@@ -36,4 +36,13 @@ img {
 .carousel-item img {
   height: 100%;
   object-fit: cover;
+}
+.img-call {
+  width: 300px;
+  height: auto;
+}
+body {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #fffcfc;
 }
