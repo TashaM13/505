@@ -6,6 +6,7 @@ body {
 }
 h1 {
   font-family: "Engagement", cursive;
+  padding-top: 50px;
 }
 #header {
   text-align: center;
@@ -61,4 +62,10 @@ body {
 .card.h-100:hover {
   transform: translateY(-10px);
   box-shadow: 0 1rem 3rem black;
+}
+.navbar.navbar-expand-lg.bg-body-tertiary {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1020;
 }
