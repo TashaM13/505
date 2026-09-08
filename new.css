@@ -18,6 +18,19 @@ body {
 
 h1 {
   font-family: "Engagement", cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 header {
@@ -313,9 +326,23 @@ hr {
   font-size: 15px;
 }
 
-/* MOBILE */
-
 @media (max-width: 800px) {
+  .below h1 {
+    font-size: 32px;
+  }
+
+  .below h2 {
+    font-size: 24px;
+  }
+
+  .below h4 {
+    font-size: 18.4px;
+  }
+
+  .below h5 {
+    font-size: 17.6px;
+  }
+
   header {
     flex-direction: column;
     gap: 20px;
